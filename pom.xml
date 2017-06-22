@@ -53,6 +53,17 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
+  
+  <distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<url>http://nexus:8081/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://nexus:8081/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
   <properties>
     <!-- Explicitly declaring the source encoding eliminates the following 
